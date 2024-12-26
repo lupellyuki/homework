@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STOU Online School - SignIn</title>
+    <style>
+        /* ให้ label และ input อยู่ในบรรทัดเดียวกัน */
+      
+
+        input[type="text"], input[type="password"] {
+            display: inline-block;
+            width: 200px; /* กำหนดความกว้างของ input */
+        }
+
+        /* เว้นระยะห่างระหว่างฟอร์ม */
+        form {
+            margin: 20px;
+        }
+
+        input[type="submit"] {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <form action="SignIn" method="post">
+        <label for="id">ID</label>
+        <input type="text" id="id" name="id" required><br><br>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="username">Loginname</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOU Online School</title>
+    <style>
+        /* จัดการให้ <body> อยู่กึ่งกลางทั้งในแนวนอนและแนวตั้ง */
+        body {
+            display: flex;
+            align-items: center;      /* กึ่งกลางแนวตั้ง */
+            height: 100vh;            /* ความสูงเต็มหน้าจอ */
+            margin: 0;                /* ลบ margin ของ <body> */
+            flex-direction: column;   /* จัดเรียงแบบแนวตั้ง */
+        }
+
+        /* ลบจุดกลมจากรายการ */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* ทำให้รายการใน <ul> เป็นแถวเดียวกัน */
+        li {
+            float: left;
+            margin-right: 15px;
+        }
+
+        /* เพิ่มสไตล์ให้ลิงก์ */
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>STOU Online School</h1>
+    <ul>
+        <li><a href="#signIn.html">SignIn</a></li>
+        <li><a href="#login.html">Login</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#search.html">Search</a></li>
+        <li><a href="#enroll.html">Enroll</a></li>
+        <li><a href="#logout">Logout</a></li>
+    </ul>
+</body>
+</html>
